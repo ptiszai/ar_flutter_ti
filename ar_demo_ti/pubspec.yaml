@@ -1,0 +1,53 @@
+name: ar_demo_ti
+description: AR demo.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.2.0+4
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ar_flutter_plugin:
+    path: ../
+
+  cupertino_icons: ^1.0.5
+  package_info_plus: ^3.0.3
+  #google_fonts: ^4.0.1 
+  #ar_flutter_plugin: ^0.7.3
+  #path_provider: ^2.0.12
+
+ 
+ # Firebase dependencies to shared and manage cloud anchor IDs and related content
+
+  path_provider: ^2.0.3
+  flutter_archive: ^4.0.1
+
+# example
+ # flutter_archive: ^4.0.1
+ # geolocator: ^9.0.2
+  vector_math: ^2.1.4
+  connectivity_plus: ^3.0.3
+  #stop_watch_timer: ^2.0.0
+  #colours: ^0.0.2
+  flutter_launcher_icons: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  #  - assets/Chicken_01/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  

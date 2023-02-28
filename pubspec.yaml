@@ -1,0 +1,36 @@
+name: ar_flutter_plugin
+description: Flutter Plugin for creating (collaborative) Augmented Reality experiences - Supports ARKit for iOS and ARCore for Android devices.
+version: 0.7.3
+homepage: https://lars.carius.io
+repository: https://github.com/CariusLars/ar_flutter_plugin
+
+environment:
+  sdk: ">=2.16.1"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^10.1.0
+  vector_math: ^2.1.1
+  json_annotation: ^4.5.0
+  geolocator: ^9.0.0
+  firebase_core: ^2.4.1
+  cloud_firestore: ^4.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  firebase_core_platform_interface: 4.5.2      
+#  firebase_messaging: ^13.0.4 # previously I only had this which was pulling in 4.5.2 which you do not want
+  
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.carius.lars.ar_flutter_plugin
+        pluginClass: ArFlutterPlugin
+      ios:
+        pluginClass: ArFlutterPlugin
