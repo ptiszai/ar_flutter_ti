@@ -84,4 +84,4 @@ YouTube video (click):<br>
 
 </div><br>
 
-## The name is In Google Play: ar_demo_ti
+## The name is in the Google Play: ar_demo_ti
