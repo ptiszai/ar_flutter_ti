@@ -29,9 +29,16 @@ You connected you android mobil. Android version is >= 9. <br>
 
 Debug version is in terminal windows:
 ```bash
+./ar_demo_ti/android/local.properties:
+sdk.dir=d:/Users/Appdata/Android/sdk  // overwrite this with the name of your own sdk.dir of directory.
+flutter.sdk=d:\\ProgramFiles\\flutter // overwrite this with the name of your own flutter.dir of directory.
+.
+.
+
 cd ar_demo_ti
 ```
 In Run menu "Start Debuging" or "Run Without Debugging". <br>
+
 Release version is in terminal windows: <br>
 
 ```bash
@@ -69,3 +76,5 @@ YouTube video (click):<br>
 [![YouTube video](https://img.youtube.com/vi/AvguI4dyZtY/0.jpg)](https://www.youtube.com/watch?v=AvguI4dyZtY)
 
 </div><br>
+
+## The name ia In Google Play: ar_demo_ti
