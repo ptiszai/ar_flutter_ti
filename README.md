@@ -13,6 +13,17 @@ The IDE
 ### Installing<br>
 You created clone repository from ar_flutter_ti.<br>
 Install Flutter, Dart extensions etc. in Visual Studio Code.<br>
+IDE :
+<div align="center">
+
+![IDE](ar_demo_ti/images/vsc.jpg)
+
+</div><br>
+<div align="center">
+
+![Flutter](ar_demo_ti/images/fluttericon1.png)  +++   ![Dart](ar_demo_ti/images/darticon1.png)
+
+</div><br>
 Open Folder the ar_flutter_ti directory.<br>
 You connected you android mobil. Android version is >= 9. <br>
 
