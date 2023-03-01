@@ -46,7 +46,14 @@ Flutter clean
 flutter build apk
 flutter install
 
-// to the Google Play bundle file type
+// To the Google Play bundle file type and
+// if your need the new key.properties, then 
+// generating key create a file called key.properties in the android directory.
+// this is need the for the bundle file.
+// My key is good.
+// https://dev.to/mimanjh/flutter-deploying-your-app-to-play-store-2nnc
+// my batch file in ./key_tool/keytool.bat
+
 flutter build appbundle 
 ```
 
