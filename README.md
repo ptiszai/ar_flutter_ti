@@ -7,23 +7,23 @@ Many thanks to Oleksandr Leuschenko and CariusLars for the
 
 ## Getting Started<br>
 I probed only Android platform.<br>
-The IDE 
-[Visual Studio Code](https://code.visualstudio.com/).<br>
+![vsc](ar_demo_ti/images/vscicon1.png) : [Visual Studio Code](https://code.visualstudio.com/).<br>
 
 ### Installing<br>
 You created clone repository from ar_flutter_ti.<br>
 Install Flutter, Dart extensions etc. in Visual Studio Code.<br>
+
+
+![Flutter](ar_demo_ti/images/fluttericon1.png) : [Flutter](https://flutter.dev/).<br>
+![Dart](ar_demo_ti/images/darticon1.png) : [Dart](https://dart.dev/).<br>
+
 IDE :
 <div align="center">
 
 ![IDE](ar_demo_ti/images/vsc.jpg)
 
 </div><br>
-<div align="center">
 
-![Flutter](ar_demo_ti/images/fluttericon1.png)  +++   ![Dart](ar_demo_ti/images/darticon1.png)
-
-</div><br>
 Open Folder the ar_flutter_ti directory.<br>
 You connected you android mobil. Android version is >= 9. <br>
 
