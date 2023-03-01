@@ -27,12 +27,12 @@ IDE :
 Open Folder the ar_flutter_ti directory.<br>
 You connected you android mobil. Android version is >= 9. <br>
 
-Debug version is in temrinal windows:
+Debug version is in terminal windows:
 ```bash
 cd ar_demo_ti
 ```
 In Run menu "Start Debuging" or "Run Without Debugging". <br>
-Release version is in temrinal windows: <br>
+Release version is in terminal windows: <br>
 
 ```bash
 Flutter clean
